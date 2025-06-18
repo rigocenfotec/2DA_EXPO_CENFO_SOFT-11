@@ -7,6 +7,8 @@
     --azul: #1B53BA;
     --celeste: #30A7D7;
     --negro: #313131;
+    --azul2: #1c69d4;
+    --azul3: #0653b6;
 
 
 }
@@ -81,46 +83,79 @@ main{
     color: #fff;
     }
     
-    .enterese{
-        background-color: var(--negro);
+    .viaje{
+        background-color: var(--azul2);
         border-radius: 12px;
         overflow: hidden;
         color: #fff;
         padding: 0;
 
     }
-    .enterese header{
-        min-height: 325px;
-        background-image: url(../img/sv10pt5-reshiram-and-zekrom-169.png);
+    .viaje header{
+        min-height: 500px;
+        background-image: url(../img/videoframe_983.png);
         background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        min-height: 500px;
+        width: 100%;
+        height: auto;
     }
 
-    .megaevolucion{
-        background-color: var(--azul);
+   
+  
+    .bmw{
+        background-color: var(--azul2);
         border-radius: 12px;
         overflow: hidden;
         color: #fff;
         padding: 0;
     }
 
-    .megaevolucion header{
+    .bmw header{
         min-height: 160px;
-        background-image: url(../img/mega-evolution-169.png);
-        background-size: cover;
+        background-image: url(../img/bmw\ burnout.jpg);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        min-height: 500px;
+        width: 100%;
+        
 
     }
 
-    .naic{
-        background-color: var(--verde);
+    .concept{
+        background-color: var(--azul2);
         border-radius: 12px;
         overflow: hidden;
         color: #fff;
         padding: 0;
     }
 
-    .naic header{
+    .concept header{
         min-height: 160px;
-        background-image: url(../img/2025-naic-34-latam.png);
-        background-size: cover;
+        background-image: url(../img/speedtop-01-stage-hd.png);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        min-height: 500px;
+        width: 100%;
+        
 
     }
+
+    .redes {
+    background-color: transparent; /* Fondo transparente */
+    padding: 10px 0; /* Espaciado interno */
+    text-align: center; /* Centrado de elementos */
+}
+
+.redes footer {
+    background-image: url(../img/redes.png);
+    background-size: contain; /* Cambiado de 'cover' a 'contain' */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px; /* Altura reducida */
+    width: 200px; /* Ancho específico para contener logos */
+    margin: 0 auto; /* Centrado horizontal */
+}
