@@ -1,0 +1,126 @@
+:root{
+    --gris: #919191;
+    --rojo: #E3350D;
+    --naranja: #EE6B2F;
+    --amarillo: #E6BC2F;
+    --verde: #4DA45B;
+    --azul: #1B53BA;
+    --celeste: #30A7D7;
+    --negro: #313131;
+
+
+}
+
+.nav-btn{
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+main{
+    margin-top: 40px;
+}
+
+.nav-btn:nth-child(1){
+    background-color: var(--gris);
+    color: #fff
+}
+
+.nav-btn:nth-child(2){
+    border-bottom: 6px solid var(--rojo);
+}
+
+.nav-btn:nth-child(3){
+    border-bottom: 6px solid var(--naranja);
+}
+
+.nav-btn:nth-child(4){
+    border-bottom: 6px solid var(--amarillo);
+}
+
+.nav-btn:nth-child(5){
+    border-bottom: 6px solid var(--verde);
+}
+
+.nav-btn:nth-child(6){
+    border-bottom: 6px solid var(--celeste);
+}
+
+.nav-btn:nth-child(7){
+    border-bottom: 6px solid var(--azul);
+}
+
+.nav-btn:nth-child(2):hover{
+    background-color: var(--rojo);
+    color: #fff;
+    }
+
+.nav-btn:nth-child(3):hover{
+    background-color: var(--naranja);
+    color: #fff;
+    }
+    
+    .nav-btn:nth-child(4):hover{
+    background-color: var(--amarillo);
+    color: #fff;
+    }
+
+    .nav-btn:nth-child(5):hover{
+    background-color: var(--verde);
+    color: #fff;
+    }
+
+    .nav-btn:nth-child(6):hover{
+    background-color: var(--celeste);
+    color: #fff;
+    }
+
+    .nav-btn:nth-child(7):hover{
+    background-color: var(--azul);
+    color: #fff;
+    }
+    
+    .enterese{
+        background-color: var(--negro);
+        border-radius: 12px;
+        overflow: hidden;
+        color: #fff;
+        padding: 0;
+
+    }
+    .enterese header{
+        min-height: 325px;
+        background-image: url(../img/sv10pt5-reshiram-and-zekrom-169.png);
+        background-size: cover;
+    }
+
+    .megaevolucion{
+        background-color: var(--azul);
+        border-radius: 12px;
+        overflow: hidden;
+        color: #fff;
+        padding: 0;
+    }
+
+    .megaevolucion header{
+        min-height: 160px;
+        background-image: url(../img/mega-evolution-169.png);
+        background-size: cover;
+
+    }
+
+    .naic{
+        background-color: var(--verde);
+        border-radius: 12px;
+        overflow: hidden;
+        color: #fff;
+        padding: 0;
+    }
+
+    .naic header{
+        min-height: 160px;
+        background-image: url(../img/2025-naic-34-latam.png);
+        background-size: cover;
+
+    }
