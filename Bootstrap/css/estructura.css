@@ -2,13 +2,18 @@
     --gris: #919191;
     --rojo: #E3350D;
     --naranja: #EE6B2F;
-    --amarillo: #E6BC2F;
+    --amarillo: #F8F272;
     --verde: #4DA45B;
     --azul: #1B53BA;
     --celeste: #30A7D7;
     --negro: #313131;
     --azul2: #1c69d4;
     --azul3: #0653b6;
+    --gris2: #C8D4E4;
+    --gris3: #B0B0B0;
+    --terracota: #C04829;
+
+
 
 
 }
@@ -34,7 +39,7 @@ main{
 }
 
 .nav-btn:nth-child(3){
-    border-bottom: 6px solid var(--naranja);
+    border-bottom: 6px solid var(--negro);
 }
 
 .nav-btn:nth-child(4){
@@ -42,15 +47,15 @@ main{
 }
 
 .nav-btn:nth-child(5){
-    border-bottom: 6px solid var(--verde);
+    border-bottom: 6px solid var(--gris2);
 }
 
 .nav-btn:nth-child(6){
-    border-bottom: 6px solid var(--celeste);
+    border-bottom: 6px solid var(--gris3);
 }
 
 .nav-btn:nth-child(7){
-    border-bottom: 6px solid var(--azul);
+    border-bottom: 6px solid var(--terracota);
 }
 
 .nav-btn:nth-child(2):hover{
@@ -59,7 +64,7 @@ main{
     }
 
 .nav-btn:nth-child(3):hover{
-    background-color: var(--naranja);
+    background-color: var(--negro);
     color: #fff;
     }
     
@@ -69,17 +74,17 @@ main{
     }
 
     .nav-btn:nth-child(5):hover{
-    background-color: var(--verde);
+    background-color: var(--gris2);
     color: #fff;
     }
 
     .nav-btn:nth-child(6):hover{
-    background-color: var(--celeste);
+    background-color: var(--gris3);
     color: #fff;
     }
 
     .nav-btn:nth-child(7):hover{
-    background-color: var(--azul);
+    background-color: var(--terracota);
     color: #fff;
     }
     
@@ -145,17 +150,17 @@ main{
     }
 
     .redes {
-    background-color: transparent; /* Fondo transparente */
-    padding: 10px 0; /* Espaciado interno */
-    text-align: center; /* Centrado de elementos */
+    background-color: transparent;
+    padding: 10px 0;
+    text-align: center;
 }
 
 .redes footer {
     background-image: url(../img/redes.png);
-    background-size: contain; /* Cambiado de 'cover' a 'contain' */
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 30px; /* Altura reducida */
-    width: 200px; /* Ancho específico para contener logos */
-    margin: 0 auto; /* Centrado horizontal */
+    height: 30px;
+    width: 200px;
+    margin: 0 auto;
 }
