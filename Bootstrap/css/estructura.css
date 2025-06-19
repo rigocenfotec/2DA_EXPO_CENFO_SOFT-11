@@ -164,3 +164,22 @@ main{
     width: 200px;
     margin: 0 auto;
 }
+.red-social {
+        transition: all 0.3s ease;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+   
+    .red-social:hover {
+        background-color: #f8f9fa;
+        color: #0d6efd;
+        transform: translateY(-2px);
+        text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+   
+    /* Opcional: colores específicos para cada red social */
+    .red-social:nth-child(1):hover { color: #1877f2; } /* Facebook */
+    .red-social:nth-child(2):hover { color: #1da1f2; } /* Twitter */
+    .red-social:nth-child(3):hover { color: #e1306c; } /* Instagram */
+    .red-social:nth-child(4):hover { color: #ff0000; } /* YouTube */
